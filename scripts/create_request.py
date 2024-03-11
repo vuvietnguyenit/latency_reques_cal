@@ -6,7 +6,7 @@ import uuid
 
 JSON_FILE = "requests.json"
 PATH = "./statics"
-LIMIT_ROW_IN_FILE = 10
+LIMIT_ROW_IN_FILE = 1000000
 
 class ValuesFixed:
     duration_time = [t / 1000 for t in range(10, 803)]  # seconds
